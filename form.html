@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form custom</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <script src="form.js"></script>
+
+    <form action="" class="form">
+
+        <p><strong>Consulta el precio de tu poliza</strong></p>
+        
+        <!-- Campo de "tipo de poliza" -->
+        <div class="form-group">
+            <p><strong>Deseas una poliza:</strong></p>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">Familiar
+                    <input class="form-check-input" type="radio" checked="checked" name="police" id="polizaFamiliar">
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="orm-check-label">Individual
+                    <input class="form-check-input" type="radio" name="police" id="polizaIndividual">
+                 </label>
+            </div>
+        </div><br>
+
+        <!-- Campo de "edad" -->
+        <div class="form-group">
+            <label for="" class="edades">
+                <p><strong>¿Qué edad tienes?</strong></p>
+                <select name="age" id="edad" class="custom-select my-1 mr-sm-2">
+                    <option value="NaN">Selecciona tu edad...</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                    <option value="32">32</option>
+                    <option value="33">33</option>
+                    <option value="34">34</option>
+                    <option value="35">35</option>
+                    <option value="36">36</option>
+                    <option value="37">37</option>
+                    <option value="38">38</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                    <option value="44">44</option>
+                    <option value="45">45</option>
+                    <option value="46">46</option>
+                    <option value="47">47</option>
+                    <option value="48">48</option>
+                    <option value="49">49</option>
+                    <option value="50">50</option>
+                    <option value="51">51</option>
+                    <option value="52">52</option>
+                    <option value="53">53</option>
+                    <option value="54">54</option>
+                    <option value="55">55</option>
+                    <option value="56">56</option>
+                    <option value="57">57</option>
+                    <option value="58">58</option>
+                    <option value="59">59</option>
+                    <option value="60">60</option>
+                    <option value="61">61</option>
+                    <option value="62">62</option>
+                    <option value="63">63</option>
+                    <option value="64">64</option>
+                    <option value="65">65</option>
+                </select>
+            </label>
+        </div><br>
+
+        <!-- Campo de "genero" -->
+        <div class="form-group">
+            <p><strong>¿Cuál es tu genero?</strong></p>
+            <div class="form-check form-check-inline">
+                <label class="orm-check-label">Masculino
+                    <input class="form-check-input" type="radio" checked="checked" name="gender" id="masculino">
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="orm-check-label">Femenino
+                    <input class="form-check-input" type="radio" name="gender" id="femenino">
+                 </label>
+            </div>
+        </div><br>
+
+        <!-- Campo de "estado/localizacion" -->
+        <div class="form-group">
+            <p><strong>En que estado vives</strong></p> 
+            <label for="" class="estado">
+                <select name="state" id="estado" class="custom-select my-1 mr-sm-2">
+                    
+                    <option value="NaN">Selecciona tu estado...</option>
+                    <option value="DIF">Distrito Federal</option>
+                    <option value="AGS">Aguascalientes</option>
+                    <option value="BCN">Baja California</option>
+                    <option value="BCS">Baja California Sur</option>
+                    <option value="CAM">Campeche</option>
+                    <option value="CHP">Chiapas</option>
+                    <option value="CHI">Chihuahua</option>
+                    <option value="COA">Coahuila</option>
+                    <option value="COL">Colima</option>
+                    <option value="DUR">Durango</option>
+                    <option value="GTO">Guanajuato</option>
+                    <option value="GRO">Guerrero</option>
+                    <option value="HGO">Hidalgo</option>
+                    <option value="JAL">Jalisco</option>
+                    <option value="MEX">M&eacute;xico</option>
+                    <option value="MIC">Michoac&aacute;n</option>
+                    <option value="MOR">Morelos</option>
+                    <option value="NAY">Nayarit</option>
+                    <option value="NLE">Nuevo Le&oacute;n</option>
+                    <option value="OAX">Oaxaca</option>
+                    <option value="PUE">Puebla</option>
+                    <option value="QRO">Quer&eacute;taro</option>
+                    <option value="ROO">Quintana Roo</option>
+                    <option value="SLP">San Luis Potos&iacute;</option>
+                    <option value="SIN">Sinaloa</option>
+                    <option value="SON">Sonora</option>
+                    <option value="TAB">Tabasco</option>
+                    <option value="TAM">Tamaulipas</option>
+                    <option value="TLX">Tlaxcala</option>
+                    <option value="VER">Veracruz</option>
+                    <option value="YUC">Yucat&aacute;n</option>
+                    <option value="ZAC">Zacatecas</option>
+                </select>
+            </label>
+        </div><br>
+        
+
+        <!-- Campo "parentesco" Si seleccionan familiar -->
+        <div class="form-group">
+            <p><strong>Parentesco</strong></p>
+            <label for="" class="familia">
+                <select name="parent" id="parentesco" class="custom-select my-1 mr-sm-2">
+
+                    <option value="">Selecciona tu parentesco...</option>
+                    <option value="">Hijo/a</option>
+                    <option value="">Abuelo/a</option>
+                    <option value="">Padre/Madre</option>
+                    <option value="">Hermano/a</option>
+                    <option value="">Nieto/a</option>
+                    <option value="">Sobrino/a</option>
+    
+                </select>
+                
+            </label>
+            
+        </div>
+        <li class="button">
+            <button type="submit">Envíe su mensaje</button>
+          </li>
+    </form>
+    </div>
+    
+</body>
+</html>
