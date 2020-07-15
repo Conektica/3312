@@ -1,17 +1,17 @@
 function getInfo(){
    
     // Valores netos
-    let poliza="";
-    let edad= document.getElementById("edad").value;
-    let genero="";
-    let estado= document.getElementById("estado").value;
-    let parentesco=document.getElementById("parentesco").value;
+    var poliza="";
+    var edad= document.getElementById("edad").value;
+    var genero="";
+    var estado= document.getElementById("estado").value;
+    var parentesco=document.getElementById("parentesco").value;
 
     // Obtener datos del form
-    let polizaFamiliar= document.getElementById("familiar");
-    let polizaIndividual= document.getElementById("individual");
-    let masculino= document.getElementById("masculino");
-    let femenino= document.getElementById("femenino");
+    var polizaFamiliar= document.getElementById("familiar");
+    var polizaIndividual= document.getElementById("individual");
+    var masculino= document.getElementById("masculino");
+    var femenino= document.getElementById("femenino");
     
     // Obtener datos de poliza
     if (polizaFamiliar.checked) {
