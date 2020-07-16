@@ -18,7 +18,7 @@
             <p><strong>Deseas una poliza:</strong></p>
             <div class="form-check form-check-inline">
                 <label class="form-check-label">Familiar
-                    <input class="form-check-input" type="radio" name="poliza" id="familiar" value="familiar" checked="checked">
+                    <input class="form-check-input" type="radio" name="poliza" id="familiar" value="familiar">
                 </label>
             </div>
             <div class="form-check form-check-inline">
@@ -109,7 +109,7 @@
             <p><strong>¿Cuál es tu genero?</strong></p>
             <div class="form-check form-check-inline">
                 <label class="orm-check-label">Masculino
-                    <input class="form-check-input" type="radio" checked="checked" name="gender" id="masculino" value="masculino">
+                    <input class="form-check-input" type="radio"  name="gender" id="masculino" value="masculino">
                 </label>
             </div>
             <div class="form-check form-check-inline">
@@ -124,69 +124,46 @@
             <p><strong>¿En qué estado vives?</strong></p> 
             <label for="" class="estado">
                 <select name="state" id="estado" class="custom-select my-1 mr-sm-2">
-                    
+
                     <option value="NaN">Selecciona tu estado...</option>
-                    <option value="DIF">Distrito Federal</option>
+                    <option value="DIF">CDMX</option> -->
                     <option value="AGS">Aguascalientes</option>
-                    <option value="BCN">Baja California</option>
+                    <option value="BCN">Baja California Norte</option>
                     <option value="BCS">Baja California Sur</option>
-                    <option value="CAM">Campeche</option>
-                    <option value="CHP">Chiapas</option>
                     <option value="CHI">Chihuahua</option>
                     <option value="COA">Coahuila</option>
-                    <option value="COL">Colima</option>
-                    <option value="DUR">Durango</option>
                     <option value="GTO">Guanajuato</option>
-                    <option value="GRO">Guerrero</option>
                     <option value="HGO">Hidalgo</option>
-                    <option value="JAL">Jalisco</option>
-                    <option value="MEX">M&eacute;xico</option>
-                    <option value="MIC">Michoac&aacute;n</option>
+                    <option value="JAL">Guadalajara</option>
+                    <option value="MIC">Michoacán</option>
                     <option value="MOR">Morelos</option>
-                    <option value="NAY">Nayarit</option>
-                    <option value="NLE">Nuevo Le&oacute;n</option>
+                    <option value="NLE">Nuevo León</option>
                     <option value="OAX">Oaxaca</option>
                     <option value="PUE">Puebla</option>
-                    <option value="QRO">Quer&eacute;taro</option>
+                    <option value="QRO">Querétaro</option>
                     <option value="ROO">Quintana Roo</option>
-                    <option value="SLP">San Luis Potos&iacute;</option>
+                    <option value="SLP">San Luis Potosí</option>
                     <option value="SIN">Sinaloa</option>
                     <option value="SON">Sonora</option>
                     <option value="TAB">Tabasco</option>
                     <option value="TAM">Tamaulipas</option>
-                    <option value="TLX">Tlaxcala</option>
                     <option value="VER">Veracruz</option>
-                    <option value="YUC">Yucat&aacute;n</option>
+                    <option value="YUC">Yucatán</option>
                     <option value="ZAC">Zacatecas</option>
                 </select>
             </label>
-        </div><br>
-        
+        </div><br>        
 
         <!-- Campo "parentesco" Si seleccionan familiar -->
-        <div class="form-group">
-            <p><strong>Parentesco</strong></p>
-            <label for="" class="familia">
-                <select name="parent" id="parentesco" class="custom-select my-1 mr-sm-2">
-
-                    <option value="">Selecciona tu parentesco...</option>
-                    <option value="Hijo/a">Hijo/a</option>
-                    <option value="Abuelo/a">Abuelo/a</option>
-                    <option value="Padre/Madre">Padre/Madre</option>
-                    <option value="Hermano/a">Hermano/a</option>
-                    <option value="Nieto/a">Nieto/a</option>
-                    <option value="Sobrino/a">Sobrino/a</option>
-    
-                </select>
-                
-            </label>
-            
+        <div class="form-group" id="containerParentesco">
         </div>
             <li class="button">
-                <button onclick="getInfo()" type="button">Enviar</button>
+                <button onclick="" type="button" id="enviar">Enviar</button>
             </li>
     </form>
     </div>
     
 </body>
 </html>
+
+
