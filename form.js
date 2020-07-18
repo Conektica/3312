@@ -1,13 +1,23 @@
 
 
-document.addEventListener("change",
-function obtenEdad(){
+
+/* 
+document.addEventListener("change",function obtenEdad(){
+    var edad= document.getElementById("edad").value;
+    console.log(edad)
+})
+; */
+
+
+document.addEventListener("DOMContentLoaded", function(event) { 
+    var edades= document.getElementById("edad");
+edades.addEventListener("change", function obtenEdad(){
     var edad= document.getElementById("edad").value;
     console.log(edad)
 });
 
-
-
+//do work 
+});
 
 function getInfo(){
    
