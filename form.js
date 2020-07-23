@@ -1,3 +1,56 @@
+//Arrelgos
+const objeto= [
+    {
+    'id': 0,
+    'edad': 0,
+    'tarifa':{
+        '1': {
+            'hombre': 1303.79, 
+            'mujer': 790.38 
+        },
+        '2':{
+            'hombre': 1108.22, 
+            'mujer': 671.82 
+        },
+        '3':{
+            'hombre': 839.77, 
+            'mujer': 644.84 
+        }
+    }
+},
+
+{
+    'id': 1,
+    'edad': 1,
+    'tarifa':{
+        '1': {
+            'hombre':  1001.37, 
+            'mujer':  559.24 
+        },
+        '2':{
+            'hombre':  851.16, 
+            'mujer':  475.35  
+        },
+        '3':{
+            'hombre':  644.98, 
+            'mujer':  456.26 
+        }
+    }
+}
+]
+
+//Estados
+const estados= [
+    {
+        'nombre': 'Oaxaca',
+        'tarifa': 1
+    },
+    {
+        'nombre': 'Puebla',
+        'tarifa': 2
+    }
+]
+
 
     //Mostrar formulario de parentesco 
     document.addEventListener("DOMContentLoaded", function(){
@@ -42,28 +95,49 @@
             e.preventDefault()
         
         //Obtener edad
-        var edad= document.getElementById("edad").value;
-        console.log("Edad: "+ edad)
+        let edad= document.getElementById("edad").value;
+        // console.log(edad)
         
         //Obtener genero
-        var genero;
-        var masculino= document.getElementById("masculino");
-        var femenino=document.getElementById("femenino");
+        let genero="";
+        let masculino= document.getElementById("masculino");
+        let femenino=document.getElementById("femenino");
         masculino.checked ? genero=masculino.value : genero=femenino.value;
-        console.log("Genero: "+ genero);
+        // console.log("Genero: "+ genero);
 
          //Obtener estado
-        var estado= document.getElementById("estado").value;
-        console.log("Estado: "+ estado)
+        let estado= document.getElementById("estado").value;
+        // console.log("Estado: "+ estado)
                    
         // Campo numero de familiares
-        var polizaFamiliar= document.getElementById("familiar");
+        let polizaFamiliar= document.getElementById("familiar");
         if(polizaFamiliar.checked){
-            var numfamiliares=document.getElementById("parentesco").value;
-            console.log("Número de familiares: "+ numfamiliares);
+            let numfamiliares=document.getElementById("parentesco").value;
+            // console.log("Número de familiares: "+ numfamiliares);
         }
 
+        //Datos: edad, numfamiliares, genero, estado, 
+        
+        let toñovar= getTarifa(estado,estados);
+        let toñovar2=getPrecio(genero,edad,toñovar,objeto)
 
-        //Datos: edad, numFamiliares, genero, estado
+        console.log(toñovar2)
+        })
     })
-})
+
+    //Funcion obtener numero de tarifa segun estado
+    const getTarifa = (nombreEstado, arregloEstados) =>{ 
+	    let tarifa = arregloEstados.filter(estado => estado.nombre === nombreEstado);
+        return tarifa[0]['tarifa'];
+    }
+
+    //Funcion obtener precio
+    const getPrecio = (genero,edad,taf,objeto)=>{
+        let edadArray = objeto.filter(e => e.edad==edad)
+
+        return edadArray[0]["tarifa"][taf][genero];
+    }
+
+
+
+    
