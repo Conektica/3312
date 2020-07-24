@@ -12,21 +12,6 @@
     <form action="" class="form" id="form">
 
         <p><strong>Consulta el precio de tu poliza</strong></p>
-        
-        <!-- Campo de "tipo de poliza" -->
-        <div class="form-group">
-            <p><strong>Deseas una poliza:</strong></p>
-            <div class="form-check form-check-inline">
-                <label class="form-check-label">Familiar
-                    <input class="form-check-input" type="radio" name="poliza" id="familiar" value="familiar">
-                </label>
-            </div>
-            <div class="form-check form-check-inline">
-                <label class="orm-check-label">Individual
-                    <input class="form-check-input" type="radio" name="poliza" id="individual" value="individual">
-                 </label>
-            </div>
-        </div><br>
 
         <!-- Campo de "edad" -->
         <div class="form-group">
@@ -152,10 +137,29 @@
                     <option value="Zacatecas">Zacatecas</option>
                 </select>
             </label>
-        </div><br>        
+        </div><br>       
+        
+        <!-- Campo de "tipo de poliza" -->
+        <div class="form-group">
+            <p><strong>Deseas una poliza:</strong></p>
+            <div class="form-check form-check-inline">
+                <label class="form-check-label">Familiar
+                    <input class="form-check-input" type="radio" name="poliza" id="familiar" value="familiar">
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <label class="orm-check-label">Individual
+                    <input class="form-check-input" type="radio" name="poliza" id="individual" value="individual">
+                 </label>
+            </div>
+        </div><br>
 
         <!-- Campo "parentesco" Si seleccionan familiar -->
         <div class="form-group" id="containerParentesco">
+        </div>
+
+        <!-- Campos adicionales segun numero de familiares-->
+        <div class="form-group" id="containerCamposExtras">
         </div>
 
         <!-- Botón de enviar -->
