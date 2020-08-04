@@ -19,24 +19,30 @@
                 <div class="card">
                     <div class="card-header">Datos de Titular</div>
                     <div class="card-body">
+    
                         <div class="form-row">
                             <div class="col form-group">
-                              <input type="text" class="form-control" placeholder="Nombre">
+                                <label for="">Nombre</label>
+                                <input type="text" class="form-control" placeholder="Nombre">
                             </div>
+                            
                             <div class="col form-group">
-                              <input type="text" class="form-control" placeholder="Apellido">
+                                <label for="">Apellido</label>
+                                <input type="text" class="form-control" placeholder="Apellido">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col form-group">
+                                <label for="">Edad</label>
                                 <input type="number" class="form-control" placeholder="Edad" min="0" max="65">
                                 <small id="emailHelp" class="form-text text-muted">De 0 a 65 años.</small>
                             </div>
                             <div class="col form-group">
+                                <label for="">Género</label>
                                 <select name="state" id="estado" class="form-control placeholder">
-                                    <option value="" selected disabled>sexo</option>
-                                    <option name="gender" id="masculino" value="hombre">masculino</option>
-                                    <option name="gender" id="femenino" value="mujer">femenino</option>
+                                    <option value="" selected disabled>Selecciona tu género...</option>
+                                    <option name="gender" id="masculino" value="hombre">Masculino</option>
+                                    <option name="gender" id="femenino" value="mujer">Femenino</option>
                                 </select>
                             </div>
                         </div>
@@ -94,65 +100,80 @@
                              </label>
                         </div>
                     </div>
+                    
+                    <div class="card">
+                        <div class="card-header"> Familiares extra</div>
+                            <div class="card-body">
+                                <div class="form-row">
+                                    <div class="col-md-6 form-group">
+                                        <label for="">Edad</label>
+                                        <input type="number" class="form-control" placeholder="Edad" min="0" max="65">
+                                        <small id="emailHelp" class="form-text text-muted">De 0 a 65 años.</small>
+                                    </div>
+            
+                                    <div class="col-md-6 form-group">
+                                        <label for="">Género</label>
+                                        <select name="state" id="estado" class="form-control placeholder">
+                                            <option value="" selected disabled>Seleciona una opción</option>
+                                            <option name="gender" id="masculino" value="hombre">Masculino</option>
+                                            <option name="gender" id="femenino" value="mujer">Femenino</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                    </div>
+                    <br>
                     <div class="form-group">
-                        <button type="button" class="btn btn-primary"> + Agregar Familiar</button>
+                        <button type="button" class="btn btn-primary float-right">Agregar</button>
                     </div>
-                    <div class="form-row">
-                        <div class="col form-group">
-                            <input type="number" class="form-control" placeholder="Edad" min="0" max="65">
-                            <small id="emailHelp" class="form-text text-muted">De 0 a 65 años.</small>
-                        </div>
-                        <div class="col form-group">
-                            <select name="state" id="estado" class="form-control placeholder">
-                                <option value="" selected disabled>sexo</option>
-                                <option name="gender" id="masculino" value="hombre">masculino</option>
-                                <option name="gender" id="femenino" value="mujer">femenino</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                <button type="submit">Enviar</button>
-            </div>
-            
 
-            
-        </form></div>
+                </div>
+            </div>
+        </div><!-- <button type="submit">Enviar</button> -->
+    </div>       
+    
+</form><br>
+
         <div class="col-md-6">
+            <form>
             <div class="container-poliza">
                 <div class="card">
-                    <div class="card-header">
-                        Familiares
-                    </div>
+                    <div class="card-header">Familiares</div>
                     <div class="card-body">
                         <div class="container-familiares" id="Contfamiliares">
-                            <div class="card">
-                                <div class="card-header">1</div>
+
+                                <div class="card">
                                 <div class="card-body">
-                                    <label for="">Edad</label>
-                                    <input type="text" placeholder="25" disabled></input>
-                                    <label for="">Sexo</label>
-                                    <input type="text" placeholder="" disabled value="Masculino"></input>
-                                    <button class="btn btn-danger"><span> - Eliminar </span></button>
+                                    <div class="form-row">
+                                        <div class="col-md-4 mb-3">
+                                            <label for="">Edad</label>
+                                            <input class="form-control" type="text" placeholder="25" disabled ></input>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="">Sexo</label>
+                                            <input  class="form-control" type="text" placeholder="" disabled value="Masculino" ></input>
+                                        </div>
+                                        <div class="col-md-2 mb-3">
+                                            <label for="">Eliminar</label>
+                                            <button class="btn btn-squared-default btn-danger"><span>-</span></button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <br>
-                <div class="form-group">
-                    <button type="button" class="btn btn-success">-> calcular</button>
+                <div class="form-group ">
+                    <button type="button" class="btn btn-success float-right">calcular <-</button>
                 </div>
                 <div class="container-asegurados"></div>
                 <div class="container-total"></div> 
             </div>
+            </form>
         </div>
-        <div class="col-md-6">
-            
-        </div>
-</div>
     
-    
-</div>
+    </div>
 
 </body>
