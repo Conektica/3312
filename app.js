@@ -45,6 +45,15 @@ class Ui {
     constructor(containerTotal) {
         this.containerTotal = containerTotal;
     }
+
+    hideElement(element){
+        element.classList.add("d-none");
+    }
+
+    showElement(element){
+        element.classList.remove("d-none");
+    }
+
     addInsured() {
         
     }
@@ -63,8 +72,8 @@ class Ui {
     </div>`;
     }
 
-    renderFamiliar(){
-        this.containerInsureds.innerHTML = `
+    renderFamiliar(containerInsureds){
+        containerInsureds.innerHTML = `
         <div class="form-row p-3 bg-light">
             <div class="col-md-6 form-group">
                 <label for="">Edad</label>
@@ -141,7 +150,23 @@ const objeto= [
 
     
 
-    document.addEventListener("DOMContentLoaded", () => {
+    // document.addEventListener("DOMContentLoaded", () => {
+        let polizaFamiliar= document.querySelector("#familiar");
+        let polizaIndividual= document.querySelector("#individual");
+        let containerInputAsegurado= document.querySelector("#conntainer-input-asegurado");
+        let buttonIndividual= document.querySelector("#button-submit-individual");
+        const ventana = new Ui(document.querySelector("#container-total"));
+
+        polizaFamiliar.addEventListener("change", () => {
+            ventana.renderFamiliar(containerInputAsegurado);
+            ventana.hideElement(buttonIndividual);
+        });
+
+        polizaIndividual.addEventListener("change", () => {
+            ventana.hideElement(containerInputAsegurado);
+            ventana.showElement(buttonIndividual);
+        });
+
         document.querySelector("#form-individual").addEventListener('submit', (e) => {
         e.preventDefault();
         let titNombre = document.querySelector("#titu-nombre").value;
@@ -170,10 +195,8 @@ const objeto= [
         const ventana = new Ui(document.querySelector("#container-total"));
         ventana.renderPolicy(poliza.getTotal());
         console.log(poliza.getTotal());
-        
-
     })
-    });
+    // });
 
 
 
