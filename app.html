@@ -7,160 +7,184 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-<script src="app.js"></script>
-<div class="app container">
+<div class="app-container container p-3 my-3 ">
     <div class="row">
-        <div class="col-md-12">
-            <h3>Consulta el precio de tu poliza</h3>
-        </div>
-        <div class="col-md-6">
-            <form class="form" id="form">
-
-                <div class="card">
-                    <div class="card-header ">Datos de Titular</div>
-                    <div class="card-body">
-    
-                        <div class="form-row">
-                            <div class="col form-group ">
-                                <label for="">Nombre</label>
-                                <input type="text" class="form-control" placeholder="Nombre">
-                            </div>
-                            
-                            <div class="col form-group ">
-                                <label for="">Apellido</label>
-                                <input type="text" class="form-control" placeholder="Apellido">
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col form-group ">
-                                <label for="">Edad</label>
-                                <input type="number" class="form-control" placeholder="Edad" min="0" max="65">
-                                <small id="emailHelp" class="form-text text-muted">De 0 a 65 años.</small>
-                            </div>
-                            <div class="col form-group ">
-                                <label for="">Género</label>
-                                <select name="state" id="estado" class="form-control placeholder">
-                                    <option value="" selected disabled>Selecciona tu género...</option>
-                                    <option name="gender" id="masculino" value="hombre">Masculino</option>
-                                    <option name="gender" id="femenino" value="mujer">Femenino</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br>
-                
-
-                <!-- Campo de "estado/localizacion" -->
-
-            <div class="card">
-                <div class="card-header ">Datos de Poliza</div>
-                <div class="card-body">
-                    <label for="">Estado</label>
-                    <div class="form-group">
-                        <select name="state" id="estado" class="custom-select my-1 mr-sm-2">
         
-                            <option value="NaN" selected disabled>Selecciona tu estado...</option>
-                            <option value="CDMX">CDMX</option>
-                            <option value="Aguascalientes">Aguascalientes</option>
-                            <option value="Baja California Norte">Baja California Norte</option>
-                            <option value="Baja California Sur">Baja California Sur</option>
-                            <option value="Chihuahua">Chihuahua</option>
-                            <option value="Coahuila">Coahuila</option>
-                            <option value="Guanajuato">Guanajuato</option>
-                            <option value="Hidalgo">Hidalgo</option>
-                            <option value="Guadalajara">Guadalajara</option>
-                            <option value="Michoacán">Michoacán</option>
-                            <option value="Morelos">Morelos</option>
-                            <option value="Nuevo León">Nuevo León</option>
-                            <option value="Oaxaca">Oaxaca</option>
-                            <option value="Puebla">Puebla</option>
-                            <option value="Querétaro">Querétaro</option>
-                            <option value="Quintana Roo">Quintana Roo</option>
-                            <option value="San Luis Potosí">San Luis Potosí</option>
-                            <option value="Sinaloa">Sinaloa</option>
-                            <option value="Sonora">Sonora</option>
-                            <option value="Tabasco">Tabasco</option>
-                            <option value="Tamaulipas">Tamaulipas</option>
-                            <option value="Veracruz">Veracruz</option>
-                            <option value="Yucatán">Yucatán</option>
-                            <option value="Zacatecas">Zacatecas</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="">Tipo de Poliza</label><br>
-                        <div class="form-check form-check-inline">
-                            <label class="form-check-label">Familiar
-                                <input class="form-check-input" type="radio" name="poliza" id="familiar" value="familiar">
-                            </label>
-                        </div>
-                        <div class="form-check form-check-inline">
-                            <label class="orm-check-label">Individual
-                                <input class="form-check-input" type="radio" name="poliza" id="individual" value="individual">
-                             </label>
-                        </div>
-                    </div>
-                    
-                            <div class="form-row p-3 bg-light">
-                                <div class="col-md-6 form-group">
+        <!-- Titulo de la app -->
+        <div class="col-md-12">   
+            <h3 class="text-center">Consulta el precio de tu poliza</h3>
+        </div>
+        <!-- Titulo de la app -->
+
+        <!-- contenedor columna 1 -->
+        <div class="col-md-6">
+            <form class="form" id="form-individual">
+
+                <div class="container-card-titular">    <!-- contenedor DATOS TITULAR -->
+                    <div class="card">
+                        <div class="card-header">Datos de Titular</div>
+                        <div class="card-body">
+        
+                            <div class="form-row">
+                                <div class="col form-group ">
+                                    <label for="">Nombre</label>
+                                    <input type="text" class="form-control" placeholder="Nombre" id="titu-nombre">
+                                </div>
+                                
+                                <div class="col form-group ">
+                                    <label for="">Apellido</label>
+                                    <input type="text" class="form-control" placeholder="Apellido" id="titu-apellido">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col form-group ">
                                     <label for="">Edad</label>
-                                    <input type="number" class="form-control" placeholder="Edad" min="0" max="65">
+                                    <input type="number" class="form-control" placeholder="Edad" min="0" max="65" id="titu-edad">
                                     <small id="emailHelp" class="form-text text-muted">De 0 a 65 años.</small>
                                 </div>
-            
-                                <div class="col-md-6 form-group">
+
+                                <div class="col form-group ">
                                     <label for="">Género</label>
-                                    <select name="state" id="estado" class="form-control placeholder">
-                                        <option value="" selected disabled>Seleciona una opción</option>
+                                    <select name="state" class="form-control placeholder" id="titu-sexo">
+                                        <option value="" selected disabled>Selecciona tu género...</option>
                                         <option name="gender" id="masculino" value="hombre">Masculino</option>
                                         <option name="gender" id="femenino" value="mujer">Femenino</option>
                                     </select>
-                                </div>   
-                                <div class="form-group ml-auto">
-                                    <button type="button" class="btn btn-primary">Agregar</button>
-                                </div>                             
+                                </div>
                             </div>
-            </div>
-        </div><!-- <button type="submit">Enviar</button> -->
-    </div>       
-    
-</form><br>
 
-        <div class="col-md-6">
-            <form>
-            <div class="container-poliza p-3">
-                <div class="card"> 
-                <div class="card-header">Familiares</div>
-                <div class="card-body">
-                        <div class="container-familiares" id="Contfamiliares">
-                                <div class="bg-light p-3">
-                                    <div class="form-row">
-                                        <div class="col-md-4 mb-3">
-                                            <label for="">Edad</label>
-                                            <input class="form-control" type="text" placeholder="25" disabled ></input>
-                                        </div>
-                                        <div class="col-md-4 mb-3">
-                                            <label for="">Sexo</label>
-                                            <input  class="form-control" type="text" placeholder="" disabled value="Masculino" ></input>
-                                        </div>
-                                        <div class="col-md-2 mb-3 ml-auto">
-                                            <label for="">Eliminar</label>
-                                            <button class="btn btn-squared-default btn-danger"><span>-</span></button>
-                                        </div>
-                                    </div>
-                            </div>
                         </div>
                     </div>
+                </div>   <!--FIN contenedor DATOS TITULAR -->
+                
                 <br>
-                <div class="form-group ml-auto">
-                    <button type="button" class="btn btn-success float-right">Calcular</button>
-                </div>
-                <div class="container-asegurados"></div>
-                <div class="container-total"></div> 
-            </div>
-            </form>
-        </div>
-    
-    </div>
+                
+                <div class="container-card-datos-poliza">    <!-- contenedor DATOS POLIZA -->
+                    <div class="card">
+                        <div class="card-header ">Datos de Poliza</div>
+                        <div class="card-body">
 
+                            <div class="form-group">    <!-- input selecionar estado -->
+                                <label for="">Estado</label>
+                                <select name="state" class="custom-select my-1 mr-sm-2" id="poliza-estado">
+                                    <option value="NaN" selected disabled>Selecciona tu estado...</option>
+                                    <option value="CDMX">CDMX</option>
+                                    <option value="Aguascalientes">Aguascalientes</option>
+                                    <option value="Baja California Norte">Baja California Norte</option>
+                                    <option value="Baja California Sur">Baja California Sur</option>
+                                    <option value="Chihuahua">Chihuahua</option>
+                                    <option value="Coahuila">Coahuila</option>
+                                    <option value="Guanajuato">Guanajuato</option>
+                                    <option value="Hidalgo">Hidalgo</option>
+                                    <option value="Guadalajara">Guadalajara</option>
+                                    <option value="Michoacán">Michoacán</option>
+                                    <option value="Morelos">Morelos</option>
+                                    <option value="Nuevo León">Nuevo León</option>
+                                    <option value="Oaxaca">Oaxaca</option>
+                                    <option value="Puebla">Puebla</option>
+                                    <option value="Querétaro">Querétaro</option>
+                                    <option value="Quintana Roo">Quintana Roo</option>
+                                    <option value="San Luis Potosí">San Luis Potosí</option>
+                                    <option value="Sinaloa">Sinaloa</option>
+                                    <option value="Sonora">Sonora</option>
+                                    <option value="Tabasco">Tabasco</option>
+                                    <option value="Tamaulipas">Tamaulipas</option>
+                                    <option value="Veracruz">Veracruz</option>
+                                    <option value="Yucatán">Yucatán</option>
+                                    <option value="Zacatecas">Zacatecas</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">      <!-- input tipo de poliza -->
+                                <label for="">Tipo de Poliza</label><br>
+                                <div class="form-check form-check-inline">
+                                    <label class="orm-check-label">Individual
+                                        <input class="form-check-input" type="radio" name="poliza" id="individual" value="individual">
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <label class="form-check-label">Familiar
+                                        <input class="form-check-input" type="radio" name="poliza" id="familiar" value="familiar">
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="button-submit-individual"> <!-- contenedor boton puede desaparecer -->
+                                <button type="submit" class="btn btn-success form-control">Calcular Poliza</button>
+                            </div>
+
+                            <div class="form-group" id="conntainer-input-asegurado">    <!-- INICIA contenedor con form para agregar un asegurado -->
+
+                                <!-- <div class="form-row p-3 bg-light">
+                                    <div class="col-md-6 form-group">
+                                        <label for="">Edad</label>
+                                        <input type="number" class="form-control" placeholder="Edad" min="0" max="65">
+                                        <small id="emailHelp" class="form-text text-muted">De 0 a 65 años.</small>
+                                    </div>
+                
+                                    <div class="col-md-6 form-group">
+                                        <label for="">Género</label>
+                                        <select name="state" id="estado" class="form-control placeholder">
+                                            <option value="" selected disabled>Seleciona una opción</option>
+                                            <option name="gender" id="masculino" value="hombre">Masculino</option>
+                                            <option name="gender" id="femenino" value="mujer">Femenino</option>
+                                        </select>
+                                    </div>   
+                                    <div class="form-group ml-auto">
+                                        <button type="button" class="btn btn-primary">Agregar</button>
+                                    </div>                             
+                                </div> -->
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div> <!--FIN contenedor DATOS POLIZA -->
+            </form>                      
+        </div> <!--FIN contenedor columna 1  col-md-6-->
+
+        <div class="col-md-6 container-poliza">
+            <div class="container-asegurados" id="container-asegurados-card">
+
+                <div class="card">
+                    <div class="card-header">Asegurados</div>
+                    <div class="card-body">
+
+                        <div class="container-familiares" id="Cont-familiares">
+
+                            <div class="bg-light p-3">
+                                <div class="form-row">
+                                    <div class="col-md-4 mb-3">
+                                        <label for="">Edad</label>
+                                        <input class="form-control" type="text" placeholder="25" disabled ></input>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <label for="">Sexo</label>
+                                        <input  class="form-control" type="text" placeholder="" disabled value="Masculino" ></input>
+                                    </div>
+                                    <div class="col-md-2 mb-3 ml-auto">
+                                        <label for="">Eliminar</label>
+                                        <button class="btn btn-squared-default btn-danger"><span>-</span></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group" id="button-submit-familiar"> <!-- contenedor boton puede desaparecer -->
+                            <button type="submit" class="btn btn-success form-control">Calcular Poliza Familiar</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <div class="container-total" id="container-total"></div> 
+        </div>
+
+    </div><!-- FIN ROW -->
+</div>  <!-- FIN APP -->     
+
+    <script src="app.js"></script>
 </body>
