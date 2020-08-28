@@ -4,16 +4,16 @@ const objeto= [
     'edad': 0,
     'tarifa':{
         '1': {
-            'hombre': 1303.79, 
-            'mujer': 790.38 
+            'Masculino': 1303.79, 
+            'Femenino': 790.38 
         },
         '2':{
-            'hombre': 1108.22, 
-            'mujer': 671.82 
+            'Masculino': 1108.22, 
+            'Femenino': 671.82 
         },
         '3':{
-            'hombre': 839.77, 
-            'mujer': 644.84 
+            'Masculino': 839.77, 
+            'Femenino': 644.84 
         }
     }
 },
@@ -23,16 +23,16 @@ const objeto= [
     'edad': 1,
     'tarifa':{
         '1': {
-            'hombre':  1001.37, 
-            'mujer':  559.24 
+            'Masculino':  1001.37, 
+            'Femenino':  559.24 
         },
         '2':{
-            'hombre':  851.16, 
-            'mujer':  475.35  
+            'Masculino':  851.16, 
+            'Femenino':  475.35  
         },
         '3':{
-            'hombre':  644.98, 
-            'mujer':  456.26 
+            'Masculino':  644.98, 
+            'Femenino':  456.26 
         }
     }
 },
@@ -42,16 +42,16 @@ const objeto= [
     'edad': 2,
     'tarifa':{
         '1': {
-            'hombre':  802.79, 
-            'mujer':  423.7828 
+            'Masculino':  802.79, 
+            'Femenino':  423.7828 
         },
         '2':{
-            'hombre':  682.37116, 
-            'mujer':  360.21538  
+            'Masculino':  682.37116, 
+            'Femenino':  360.21538  
         },
         '3':{
-            'hombre': 517.08287751281, 
-            'mujer':  345.754052760722
+            'Masculino': 517.08287751281, 
+            'Femenino':  345.754052760722
         }
     }
 },
@@ -61,16 +61,16 @@ const objeto= [
     'edad': 3,
     'tarifa':{
         '1': {
-            'hombre': 668.74, 
-            'mujer':  341.446 
+            'Masculino': 668.74, 
+            'Femenino':  341.446 
         },
         '2':{
-            'hombre':  568.429, 
-            'mujer': 290.2291  
+            'Masculino':  568.429, 
+            'Femenino': 290.2291  
         },
         '3':{
-            'hombre': 430.732474340753, 
-            'mujer':  278.573053881881
+            'Masculino': 430.732474340753, 
+            'Femenino':  278.573053881881
         }
     }
 },
@@ -80,16 +80,16 @@ const objeto= [
     'edad': 4,
     'tarifa':{
         '1': {
-            'hombre':  576.3344, 
-            'mujer':  290.4756
+            'Masculino':  576.3344, 
+            'Femenino':  290.4756
         },
         '2':{
-            'hombre':  489.88424, 
-            'mujer': 246.90426  
+            'Masculino':  489.88424, 
+            'Femenino': 246.90426  
         },
         '3':{
-            'hombre':  371.217386222037, 
-            'mujer': 236.994487586724
+            'Masculino':  371.217386222037, 
+            'Femenino': 236.994487586724
         }
     }
 },
@@ -99,16 +99,16 @@ const objeto= [
     'edad': 5,
     'tarifa':{
         '1': {
-            'hombre': 511.8384, 
-            'mujer': 259.26
+            'Masculino': 511.8384, 
+            'Femenino': 259.26
         },
         '2':{
-            'hombre':  435.06264, 
-            'mujer':  220.371 
+            'Masculino':  435.06264, 
+            'Femenino':  220.371 
         },
         '3':{
-            'hombre': 329.675782725, 
-            'mujer': 211.52690536359
+            'Masculino': 329.675782725, 
+            'Femenino': 211.52690536359
         }
     }
 },
@@ -118,16 +118,16 @@ const objeto= [
     'edad': 6,
     'tarifa':{
         '1': {
-            'hombre':  466.6796, 
-            'mujer':  241.3148
+            'Masculino':  466.6796, 
+            'Femenino':  241.3148
         },
         '2':{
-            'hombre': 396.67766, 
-            'mujer':  205.11758 
+            'Masculino': 396.67766, 
+            'Femenino':  205.11758 
         },
         '3':{
-            'hombre':  300.587778932857, 
-            'mujer':  196.881820822952
+            'Masculino':  300.587778932857, 
+            'Femenino':  196.881820822952
         }
     }
 },
@@ -137,16 +137,16 @@ const objeto= [
     'edad': 7,
     'tarifa':{
         '1': {
-            'hombre': 435.3364, 
-            'mujer':  232.9164 
+            'Masculino': 435.3364, 
+            'Femenino':  232.9164 
         },
         '2':{
-            'hombre':  370.03594, 
-            'mujer':  197.97894
+            'Masculino':  370.03594, 
+            'Femenino':  197.97894
         },
         '3':{
-            'hombre': 280.406019389835, 
-            'mujer': 190.029376115315
+            'Masculino': 280.406019389835, 
+            'Femenino': 190.029376115315
         }
     }
 },
@@ -156,16 +156,16 @@ const objeto= [
     'edad': 8,
     'tarifa':{
         '1': {
-            'hombre': 414.1896, 
-            'mujer': 231.9188
+            'Masculino': 414.1896, 
+            'Femenino': 231.9188
         },
         '2':{
-            'hombre': 352.06116, 
-            'mujer':  197.13098
+            'Masculino': 352.06116, 
+            'Femenino':  197.13098
         },
         '3':{
-            'hombre': 266.781698312543, 
-            'mujer':  189.210918809285
+            'Masculino': 266.781698312543, 
+            'Femenino':  189.210918809285
         }
     }
 },
@@ -175,16 +175,16 @@ const objeto= [
     'edad': 9,
     'tarifa':{
         '1': {
-            'hombre':  400.7336, 
-            'mujer':  237.0576
+            'Masculino':  400.7336, 
+            'Femenino':  237.0576
         },
         '2':{
-            'hombre':  340.62356, 
-            'mujer':  201.49896  
+            'Masculino':  340.62356, 
+            'Femenino':  201.49896  
         },
         '3':{
-            'hombre':  258.112565228572, 
-            'mujer':  193.412483084945
+            'Masculino':  258.112565228572, 
+            'Femenino':  193.412483084945
         }
     }
 },
@@ -194,16 +194,16 @@ const objeto= [
     'edad': 10,
     'tarifa':{
         '1': {
-            'hombre':  393.2052, 
-            'mujer': 247.6832 
+            'Masculino':  393.2052, 
+            'Femenino': 247.6832 
         },
         '2':{
-            'hombre': 334.22442, 
-            'mujer':  210.53072  
+            'Masculino': 334.22442, 
+            'Femenino':  210.53072  
         },
         '3':{
-            'hombre':  253.270851294612, 
-            'mujer':  202.069201721708 
+            'Masculino':  253.270851294612, 
+            'Femenino':  202.069201721708 
         }
     }
 },
@@ -213,16 +213,16 @@ const objeto= [
     'edad': 11,
     'tarifa':{
         '1': {
-            'hombre':  390.3632, 
-            'mujer': 263.3896
+            'Masculino':  390.3632, 
+            'Femenino': 263.3896
         },
         '2':{
-            'hombre':  331.80872, 
-            'mujer': 223.88116  
+            'Masculino':  331.80872, 
+            'Femenino': 223.88116  
         },
         '3':{
-            'hombre': 251.434923677079, 
-            'mujer': 214.888952528315 
+            'Masculino': 251.434923677079, 
+            'Femenino': 214.888952528315 
         }
     }
 },
@@ -232,16 +232,16 @@ const objeto= [
     'edad': 12,
     'tarifa':{
         '1': {
-            'hombre':  391.21, 
-            'mujer':  284.0376
+            'Masculino':  391.21, 
+            'Femenino':  284.0376
         },
         '2':{
-            'hombre':  332.5285, 
-            'mujer':  241.43196 
+            'Masculino':  332.5285, 
+            'Femenino':  241.43196 
         },
         '3':{
-            'hombre':  251.982609458249, 
-            'mujer':  231.738705294516
+            'Masculino':  251.982609458249, 
+            'Femenino':  231.738705294516
         }
     }
 },
@@ -251,16 +251,16 @@ const objeto= [
     'edad': 13,
     'tarifa':{
         '1': {
-            'hombre':  395.0032, 
-            'mujer':  309.5692
+            'Masculino':  395.0032, 
+            'Femenino':  309.5692
         },
         '2':{
-            'hombre': 335.75272, 
-            'mujer': 263.13382 
+            'Masculino': 335.75272, 
+            'Femenino': 263.13382 
         },
         '3':{
-            'hombre': 254.422360234273, 
-            'mujer':  252.564063478658
+            'Masculino': 254.422360234273, 
+            'Femenino':  252.564063478658
         }
     }
 },
@@ -270,16 +270,16 @@ const objeto= [
     'edad': 14,
     'tarifa':{
         '1': {
-            'hombre': 401.1048, 
-            'mujer': 339.9264
+            'Masculino': 401.1048, 
+            'Femenino': 339.9264
         },
         '2':{
-            'hombre':  340.93908, 
-            'mujer':  288.93744 
+            'Masculino':  340.93908, 
+            'Femenino':  288.93744 
         },
         '3':{
-            'hombre': 258.348428306018, 
-            'mujer': 277.326514955395 
+            'Masculino': 258.348428306018, 
+            'Femenino': 277.326514955395 
         }
     }
 },
@@ -289,16 +289,16 @@ const objeto= [
     'edad': 15,
     'tarifa':{
         '1': {
-            'hombre':  408.958, 
-            'mujer': 375.0048
+            'Masculino':  408.958, 
+            'Femenino': 375.0048
         },
         '2':{
-            'hombre':  347.6143, 
-            'mujer':  318.75408 
+            'Masculino':  347.6143, 
+            'Femenino':  318.75408 
         },
         '3':{
-            'hombre': 263.411833064286, 
-            'mujer': 305.950710599554 
+            'Masculino': 263.411833064286, 
+            'Femenino': 305.950710599554 
         }
     }
 },
@@ -308,16 +308,16 @@ const objeto= [
     'edad': 16,
     'tarifa':{
         '1': {
-            'hombre': 418.0988, 
-            'mujer':  414.6304 
+            'Masculino': 418.0988, 
+            'Femenino':  414.6304 
         },
         '2':{
-            'hombre': 355.38398, 
-            'mujer':  352.43584 
+            'Masculino': 355.38398, 
+            'Femenino':  352.43584 
         },
         '3':{
-            'hombre': 269.302089912229, 
-            'mujer': 338.278795026183 
+            'Masculino': 269.302089912229, 
+            'Femenino': 338.278795026183 
         }
     }
 },
@@ -327,16 +327,16 @@ const objeto= [
     'edad': 17,
     'tarifa':{
         '1': {
-            'hombre': 428.098, 
-            'mujer': 458.4552 
+            'Masculino': 428.098, 
+            'Femenino': 458.4552 
         },
         '2':{
-            'hombre':  363.8833, 
-            'mujer':  389.68692  
+            'Masculino':  363.8833, 
+            'Femenino':  389.68692  
         },
         '3':{
-            'hombre': 275.736505150403, 
-            'mujer':  374.031830654698
+            'Masculino': 275.736505150403, 
+            'Femenino':  374.031830654698
         }
     }
 },
@@ -346,16 +346,16 @@ const objeto= [
     'edad': 18,
     'tarifa':{
         '1': {
-            'hombre':  438.5148, 
-            'mujer': 505.9456
+            'Masculino':  438.5148, 
+            'Femenino': 505.9456
         },
         '2':{
-            'hombre':  372.73758, 
-            'mujer':  430.05376 
+            'Masculino':  372.73758, 
+            'Femenino':  430.05376 
         },
         '3':{
-            'hombre': 282.454886610831, 
-            'mujer':  412.780266957145 
+            'Masculino': 282.454886610831, 
+            'Femenino':  412.780266957145 
         }
     }
 },
@@ -365,16 +365,16 @@ const objeto= [
     'edad': 19,
     'tarifa':{
         '1': {
-            'hombre':  449.0244, 
-            'mujer':  556.3824 
+            'Masculino':  449.0244, 
+            'Femenino':  556.3824 
         },
         '2':{
-            'hombre': 381.67074, 
-            'mujer':  472.92504 
+            'Masculino': 381.67074, 
+            'Femenino':  472.92504 
         },
         '3':{
-            'hombre': 289.218111802365, 
-            'mujer':  453.926394127829 
+            'Masculino': 289.218111802365, 
+            'Femenino':  453.926394127829 
         }
     }
 },
@@ -384,16 +384,16 @@ const objeto= [
     'edad': 20,
     'tarifa':{
         '1': {
-            'hombre': 459.2556, 
-            'mujer':  608.8028 
+            'Masculino': 459.2556, 
+            'Femenino':  608.8028 
         },
         '2':{
-            'hombre':  390.36726, 
-            'mujer':  517.48238
+            'Masculino':  390.36726, 
+            'Femenino':  517.48238
         },
         '3':{
-            'hombre':  295.809330001365, 
-            'mujer': 496.701806332286 
+            'Masculino':  295.809330001365, 
+            'Femenino': 496.701806332286 
         }
     }
 },
@@ -403,16 +403,16 @@ const objeto= [
     'edad': 21,
     'tarifa':{
         '1': {
-            'hombre':  468.93, 
-            'mujer':  662.1048
+            'Masculino':  468.93, 
+            'Femenino':  662.1048
         },
         '2':{
-            'hombre':  398.5905, 
-            'mujer': 562.78908  
+            'Masculino':  398.5905, 
+            'Femenino': 562.78908  
         },
         '3':{
-            'hombre':  302.036774213034, 
-            'mujer':  540.182097669793 
+            'Masculino':  302.036774213034, 
+            'Femenino':  540.182097669793 
         }
     }
 },
@@ -422,16 +422,16 @@ const objeto= [
     'edad': 22,
     'tarifa':{
         '1': {
-            'hombre':  477.7692, 
-            'mujer': 714.9776
+            'Masculino':  477.7692, 
+            'Femenino': 714.9776
         },
         '2':{
-            'hombre':  406.10382, 
-            'mujer':  607.73096  
+            'Masculino':  406.10382, 
+            'Femenino':  607.73096  
         },
         '3':{
-            'hombre':  307.737300039714, 
-            'mujer':  583.319428492154 
+            'Masculino':  307.737300039714, 
+            'Femenino':  583.319428492154 
         }
     }
 },
@@ -441,16 +441,16 @@ const objeto= [
     'edad': 23,
     'tarifa':{
         '1': {
-            'hombre': 485.6108, 
-            'mujer':  766.0524 
+            'Masculino': 485.6108, 
+            'Femenino':  766.0524 
         },
         '2':{
-            'hombre':  412.76918, 
-            'mujer': 651.14454  
+            'Masculino':  412.76918, 
+            'Femenino': 651.14454  
         },
         '3':{
-            'hombre':  312.779897789146, 
-            'mujer':  624.991474921785 
+            'Masculino':  312.779897789146, 
+            'Femenino':  624.991474921785 
         }
     }
 },
@@ -460,16 +460,16 @@ const objeto= [
     'edad': 24,
     'tarifa':{
         '1': {
-            'hombre':  492.2692, 
-            'mujer': 813.9488 
+            'Masculino':  492.2692, 
+            'Femenino': 813.9488 
         },
         '2':{
-            'hombre': 418.42882, 
-            'mujer':  691.85648  
+            'Masculino': 418.42882, 
+            'Femenino':  691.85648  
         },
         '3':{
-            'hombre': 317.06856609072, 
-            'mujer':  664.06298767563 
+            'Masculino': 317.06856609072, 
+            'Femenino':  664.06298767563 
         }
     }
 },
@@ -479,16 +479,16 @@ const objeto= [
     'edad': 25,
     'tarifa':{
         '1': {
-            'hombre':  497.6632, 
-            'mujer': 857.3212
+            'Masculino':  497.6632, 
+            'Femenino': 857.3212
         },
         '2':{
-            'hombre':  423.01372, 
-            'mujer':  728.72302  
+            'Masculino':  423.01372, 
+            'Femenino':  728.72302  
         },
         '3':{
-            'hombre':  320.544097456244, 
-            'mujer':  699.454188822001 
+            'Masculino':  320.544097456244, 
+            'Femenino':  699.454188822001 
         }
     }
 },
@@ -498,16 +498,16 @@ const objeto= [
     'edad': 26,
     'tarifa':{
         '1': {
-            'hombre': 501.758, 
-            'mujer':  895.0096 
+            'Masculino': 501.758, 
+            'Femenino':  895.0096 
         },
         '2':{
-            'hombre':  426.4943, 
-            'mujer':  760.75816 
+            'Masculino':  426.4943, 
+            'Femenino':  760.75816 
         },
         '3':{
-            'hombre': 323.184503835279, 
-            'mujer':  730.20895559088 
+            'Masculino': 323.184503835279, 
+            'Femenino':  730.20895559088 
         }
     }
 },
@@ -517,16 +517,16 @@ const objeto= [
     'edad': 27,
     'tarifa':{
         '1': {
-            'hombre':  504.5884, 
-            'mujer':  926.086 
+            'Masculino':  504.5884, 
+            'Femenino':  926.086 
         },
         '2':{
-            'hombre': 428.90014, 
-            'mujer': 787.1731
+            'Masculino': 428.90014, 
+            'Femenino': 787.1731
         },
         '3':{
-            'hombre': 325.003990596419, 
-            'mujer':  755.555480554163
+            'Masculino': 325.003990596419, 
+            'Femenino':  755.555480554163
         }
     }
 },
@@ -536,16 +536,16 @@ const objeto= [
     'edad': 28,
     'tarifa':{
         '1': {
-            'hombre':  506.2008, 
-            'mujer':  949.8544
+            'Masculino':  506.2008, 
+            'Femenino':  949.8544
         },
         '2':{
-            'hombre':  430.27068, 
-            'mujer': 807.37624  
+            'Masculino':  430.27068, 
+            'Femenino': 807.37624  
         },
         '3':{
-            'hombre':  326.050554467493, 
-            'mujer':  774.952952769698 
+            'Masculino':  326.050554467493, 
+            'Femenino':  774.952952769698 
         }
     }
 },
@@ -555,16 +555,16 @@ const objeto= [
     'edad': 29,
     'tarifa':{
         '1': {
-            'hombre': 506.746, 
-            'mujer':  965.99 
+            'Masculino': 506.746, 
+            'Femenino':  965.99 
         },
         '2':{
-            'hombre': 430.7341, 
-            'mujer': 821.0915  
+            'Masculino': 430.7341, 
+            'Femenino': 821.0915  
         },
         '3':{
-            'hombre': 326.402419489968, 
-            'mujer':  788.119636156663
+            'Masculino': 326.402419489968, 
+            'Femenino':  788.119636156663
         }
     }
 },
@@ -574,16 +574,16 @@ const objeto= [
     'edad': 30,
     'tarifa':{
         '1': {
-            'hombre':  506.3864, 
-            'mujer': 974.4696 
+            'Masculino':  506.3864, 
+            'Femenino': 974.4696 
         },
         '2':{
-            'hombre':  430.42844, 
-            'mujer':  828.29916 
+            'Masculino':  430.42844, 
+            'Femenino':  828.29916 
         },
         '3':{
-            'hombre':  326.163623624159, 
-            'mujer':  795.040190496553  
+            'Masculino':  326.163623624159, 
+            'Femenino':  795.040190496553  
         }
     }
 },
@@ -593,16 +593,16 @@ const objeto= [
     'edad': 31,
     'tarifa':{
         '1': {
-            'hombre': 505.296, 
-            'mujer': 975.5948 
+            'Masculino': 505.296, 
+            'Femenino': 975.5948 
         },
         '2':{
-            'hombre':  429.5016, 
-            'mujer':  829.25558
+            'Masculino':  429.5016, 
+            'Femenino':  829.25558
         },
         '3':{
-            'hombre':  325.459121727808, 
-            'mujer':  795.952732766896
+            'Masculino':  325.459121727808, 
+            'Femenino':  795.952732766896
         }
     }
 },
@@ -612,16 +612,16 @@ const objeto= [
     'edad': 32,
     'tarifa':{
         '1': {
-            'hombre': 503.6952, 
-            'mujer': 969.9108 
+            'Masculino': 503.6952, 
+            'Femenino': 969.9108 
         },
         '2':{
-            'hombre':  428.14092, 
-            'mujer':  824.42418 
+            'Masculino':  428.14092, 
+            'Femenino':  824.42418 
         },
         '3':{
-            'hombre':  324.429778903396, 
-            'mujer': 791.318512041592
+            'Masculino':  324.429778903396, 
+            'Femenino': 791.318512041592
         }
     }
 },
@@ -631,16 +631,16 @@ const objeto= [
     'edad': 33,
     'tarifa':{
         '1': {
-            'hombre': 501.8276, 
-            'mujer': 958.218 
+            'Masculino': 501.8276, 
+            'Femenino': 958.218 
         },
         '2':{
-            'hombre': 426.55346, 
-            'mujer':  814.4853 
+            'Masculino': 426.55346, 
+            'Femenino':  814.4853 
         },
         '3':{
-            'hombre':  323.227597750585, 
-            'mujer':  781.778806104863
+            'Masculino':  323.227597750585, 
+            'Femenino':  781.778806104863
         }
     }
 },
@@ -650,16 +650,16 @@ const objeto= [
     'edad': 34,
     'tarifa':{
         '1': {
-            'hombre': 499.9368, 
-            'mujer': 941.4676 
+            'Masculino': 499.9368, 
+            'Femenino': 941.4676 
         },
         '2':{
-            'hombre':  424.94628, 
-            'mujer':  800.24746
+            'Masculino':  424.94628, 
+            'Femenino':  800.24746
         },
         '3':{
-            'hombre':  322.011463645336, 
-            'mujer':  768.104541644928
+            'Masculino':  322.011463645336, 
+            'Femenino':  768.104541644928
         }
     }
 },
@@ -669,16 +669,16 @@ const objeto= [
     'edad': 35,
     'tarifa':{
         '1': {
-            'hombre':  498.278, 
-            'mujer': 920.6688 
+            'Masculino':  498.278, 
+            'Femenino': 920.6688 
         },
         '2':{
-            'hombre':  423.5363, 
-            'mujer':  782.56848
+            'Masculino':  423.5363, 
+            'Femenino':  782.56848
         },
         '3':{
-            'hombre':  320.943615187136, 
-            'mujer':  751.144174157475
+            'Masculino':  320.943615187136, 
+            'Femenino':  751.144174157475
         }
     }
 },
@@ -688,16 +688,16 @@ const objeto= [
     'edad': 36,
     'tarifa':{
         '1': {
-            'hombre':  497.1064, 
-            'mujer': 896.9352
+            'Masculino':  497.1064, 
+            'Femenino': 896.9352
         },
         '2':{
-            'hombre': 422.54044, 
-            'mujer':  762.39492 
+            'Masculino': 422.54044, 
+            'Femenino':  762.39492 
         },
         '3':{
-            'hombre':  320.186963430707, 
-            'mujer': 731.774676259323
+            'Masculino':  320.186963430707, 
+            'Femenino': 731.774676259323
         }
     }
 },
@@ -707,16 +707,16 @@ const objeto= [
     'edad': 37,
     'tarifa':{
         '1': {
-            'hombre':  496.6656, 
-            'mujer': 871.2992
+            'Masculino':  496.6656, 
+            'Femenino': 871.2992
         },
         '2':{
-            'hombre': 422.16576, 
-            'mujer':  740.60432
+            'Masculino': 422.16576, 
+            'Femenino':  740.60432
         },
         '3':{
-            'hombre': 319.903302543677, 
-            'mujer':  710.859311100358
+            'Masculino': 319.903302543677, 
+            'Femenino':  710.859311100358
         }
     }
 },
@@ -726,16 +726,16 @@ const objeto= [
     'edad': 38,
     'tarifa':{
         '1': {
-            'hombre':  497.1992, 
-            'mujer': 844.77
+            'Masculino':  497.1992, 
+            'Femenino': 844.77
         },
         '2':{
-            'hombre': 422.61932, 
-            'mujer':  718.0545
+            'Masculino': 422.61932, 
+            'Femenino':  718.0545
         },
         '3':{
-            'hombre': 320.252382326467, 
-            'mujer':  689.214480668197
+            'Masculino': 320.252382326467, 
+            'Femenino':  689.214480668197
         }
     }
 },
@@ -745,16 +745,16 @@ const objeto= [
     'edad': 39,
     'tarifa':{
         '1': {
-            'hombre': 498.974, 
-            'mujer': 818.2524 
+            'Masculino': 498.974, 
+            'Femenino': 818.2524 
         },
         '2':{
-            'hombre':  424.1279, 
-            'mujer': 695.51454 
+            'Masculino':  424.1279, 
+            'Femenino': 695.51454 
         },
         '3':{
-            'hombre':  321.391752597596, 
-            'mujer': 667.586580821598
+            'Masculino':  321.391752597596, 
+            'Femenino': 667.586580821598
         }
     }
 },
@@ -764,16 +764,16 @@ const objeto= [
     'edad': 40,
     'tarifa':{
         '1': {
-            'hombre': 502.2104, 
-            'mujer': 792.5816
+            'Masculino': 502.2104, 
+            'Femenino': 792.5816
         },
         '2':{
-            'hombre':  426.87884, 
-            'mujer':  673.69436
+            'Masculino':  426.87884, 
+            'Femenino':  673.69436
         },
         '3':{
-            'hombre':  323.477240732178, 
-            'mujer':  646.638645230214
+            'Masculino':  323.477240732178, 
+            'Femenino':  646.638645230214
         }
     }
 },
@@ -783,16 +783,16 @@ const objeto= [
     'edad': 41,
     'tarifa':{
         '1': {
-            'hombre':  507.1636, 
-            'mujer': 768.442
+            'Masculino':  507.1636, 
+            'Femenino': 768.442
         },
         '2':{
-            'hombre':  431.08906, 
-            'mujer':  653.1757
+            'Masculino':  431.08906, 
+            'Femenino':  653.1757
         },
         '3':{
-            'hombre':  326.663884020868, 
-            'mujer': 626.945718705567
+            'Masculino':  326.663884020868, 
+            'Femenino': 626.945718705567
         }
     }
 },
@@ -802,16 +802,16 @@ const objeto= [
     'edad': 42,
     'tarifa':{
         '1': {
-            'hombre':  514.054, 
-            'mujer': 746.4368
+            'Masculino':  514.054, 
+            'Femenino': 746.4368
         },
         '2':{
-            'hombre':  436.9459, 
-            'mujer':  634.47128
+            'Masculino':  436.9459, 
+            'Femenino':  634.47128
         },
         '3':{
-            'hombre':  331.107103448067, 
-            'mujer':  608.997391367688
+            'Masculino':  331.107103448067, 
+            'Femenino':  608.997391367688
         }
     }
 },
@@ -821,16 +821,16 @@ const objeto= [
     'edad': 43,
     'tarifa':{
         '1': {
-            'hombre':  523.1484, 
-            'mujer':727.088 
+            'Masculino':  523.1484, 
+            'Femenino':727.088 
         },
         '2':{
-            'hombre':  444.67614, 
-            'mujer':  618.0248 
+            'Masculino':  444.67614, 
+            'Femenino':  618.0248 
         },
         '3':{
-            'hombre':  336.96386918576, 
-            'mujer':  593.20571595143
+            'Masculino':  336.96386918576, 
+            'Femenino':  593.20571595143
         }
     }
 },
@@ -840,16 +840,16 @@ const objeto= [
     'edad': 44,
     'tarifa':{
         '1': {
-            'hombre':  534.6788, 
-            'mujer': 710.8016
+            'Masculino':  534.6788, 
+            'Femenino': 710.8016
         },
         '2':{
-            'hombre':  454.47698, 
-            'mujer':  604.18136
+            'Masculino':  454.47698, 
+            'Femenino':  604.18136
         },
         '3':{
-            'hombre':  344.39356418002, 
-            'mujer':  579.91675363765
+            'Masculino':  344.39356418002, 
+            'Femenino':  579.91675363765
         }
     }
 },
@@ -859,16 +859,16 @@ const objeto= [
     'edad': 45,
     'tarifa':{
         '1': {
-            'hombre':  548.912, 
-            'mujer': 697.9372 
+            'Masculino':  548.912, 
+            'Femenino': 697.9372 
         },
         '2':{
-            'hombre':  466.5752, 
-            'mujer':  593.24662 
+            'Masculino':  466.5752, 
+            'Femenino':  593.24662 
         },
         '3':{
-            'hombre':  353.558194331405, 
-            'mujer': 569.424167645953
+            'Masculino':  353.558194331405, 
+            'Femenino': 569.424167645953
         }
     }
 },
@@ -878,16 +878,16 @@ const objeto= [
     'edad': 46,
     'tarifa':{
         '1': {
-            'hombre':  566.0916, 
-            'mujer': 688.808 
+            'Masculino':  566.0916, 
+            'Femenino': 688.808 
         },
         '2':{
-            'hombre':  481.17786, 
-            'mujer': 585.4868
+            'Masculino':  481.17786, 
+            'Femenino': 585.4868
         },
         '3':{
-            'hombre':  364.621516384984, 
-            'mujer':  561.983529216686
+            'Masculino':  364.621516384984, 
+            'Femenino':  561.983529216686
         }
     }
 },
@@ -897,16 +897,16 @@ const objeto= [
     'edad': 47,
     'tarifa':{
         '1': {
-            'hombre':  586.4612, 
-            'mujer': 683.7272 
+            'Masculino':  586.4612, 
+            'Femenino': 683.7272 
         },
         '2':{
-            'hombre': 498.49202, 
-            'mujer':  581.16812 
+            'Masculino': 498.49202, 
+            'Femenino':  581.16812 
         },
         '3':{
-            'hombre':  377.746554028254, 
-            'mujer': 557.826250078646
+            'Masculino':  377.746554028254, 
+            'Femenino': 557.826250078646
         }
     }
 },
@@ -916,16 +916,16 @@ const objeto= [
     'edad': 48,
     'tarifa':{
         '1': {
-            'hombre': 610.2876, 
-            'mujer': 682.9152 
+            'Masculino': 610.2876, 
+            'Femenino': 682.9152 
         },
         '2':{
-            'hombre':  518.74446, 
-            'mujer':  580.47792
+            'Masculino':  518.74446, 
+            'Femenino':  580.47792
         },
         '3':{
-            'hombre':  393.090848577953, 
-            'mujer': 557.172257040593
+            'Masculino':  393.090848577953, 
+            'Femenino': 557.172257040593
         }
     }
 },
@@ -935,16 +935,16 @@ const objeto= [
     'edad': 49,
     'tarifa':{
         '1': {
-            'hombre':  637.7912, 
-            'mujer': 686.6852 
+            'Masculino':  637.7912, 
+            'Femenino': 686.6852 
         },
         '2':{
-            'hombre': 542.12252, 
-            'mujer':  583.68242 
+            'Masculino': 542.12252, 
+            'Femenino':  583.68242 
         },
         '3':{
-            'hombre':  410.798648753877, 
-            'mujer':  560.240640888222
+            'Masculino':  410.798648753877, 
+            'Femenino':  560.240640888222
         }
     }
 },
@@ -954,16 +954,16 @@ const objeto= [
     'edad': 50,
     'tarifa':{
         '1': {
-            'hombre': 669.1228, 
-            'mujer': 695.2808 
+            'Masculino': 669.1228, 
+            'Femenino': 695.2808 
         },
         '2':{
-            'hombre': 568.75438, 
-            'mujer':  590.98868
+            'Masculino': 568.75438, 
+            'Femenino':  590.98868
         },
         '3':{
-            'hombre':  430.989099958022, 
-            'mujer':  567.2575184625
+            'Masculino':  430.989099958022, 
+            'Femenino':  567.2575184625
         }
     }
 },
@@ -973,16 +973,16 @@ const objeto= [
     'edad': 51,
     'tarifa':{
         '1': {
-            'hombre':  704.4564, 
-            'mujer': 709.0152
+            'Masculino':  704.4564, 
+            'Femenino': 709.0152
         },
         '2':{
-            'hombre': 598.78794, 
-            'mujer':  602.66292 
+            'Masculino': 598.78794, 
+            'Femenino':  602.66292 
         },
         '3':{
-            'hombre':  453.73937799001, 
-            'mujer': 578.460228094872
+            'Masculino':  453.73937799001, 
+            'Femenino': 578.460228094872
         }
     }
 },
@@ -992,16 +992,16 @@ const objeto= [
     'edad': 52,
     'tarifa':{
         '1': {
-            'hombre': 743.7688, 
-            'mujer':728.1784 
+            'Masculino': 743.7688, 
+            'Femenino':728.1784 
         },
         '2':{
-            'hombre': 632.20348, 
-            'mujer':  618.95164
+            'Masculino': 632.20348, 
+            'Femenino':  618.95164
         },
         '3':{
-            'hombre': 479.061678130149, 
-            'mujer':  594.096726959683
+            'Masculino': 479.061678130149, 
+            'Femenino':  594.096726959683
         }
     }
 },
@@ -1011,16 +1011,16 @@ const objeto= [
     'edad': 53,
     'tarifa':{
         '1': {
-            'hombre':  786.944, 
-            'mujer': 753.0952 
+            'Masculino':  786.944, 
+            'Femenino': 753.0952 
         },
         '2':{
-            'hombre':  668.9024, 
-            'mujer':  640.13092
+            'Masculino':  668.9024, 
+            'Femenino':  640.13092
         },
         '3':{
-            'hombre':  506.873100616211, 
-            'mujer':  614.418676993081
+            'Masculino':  506.873100616211, 
+            'Femenino':  614.418676993081
         }
     }
 },
@@ -1030,16 +1030,16 @@ const objeto= [
     'edad': 54,
     'tarifa':{
         '1': {
-            'hombre': 833.6572, 
-            'mujer': 784.0324 
+            'Masculino': 833.6572, 
+            'Femenino': 784.0324 
         },
         '2':{
-            'hombre': 708.60862, 
-            'mujer':  666.42754
+            'Masculino': 708.60862, 
+            'Femenino':  666.42754
         },
         '3':{
-            'hombre': 536.957886226777, 
-            'mujer':  639.666213925041
+            'Masculino': 536.957886226777, 
+            'Femenino':  639.666213925041
         }
     }
 },
@@ -1049,16 +1049,16 @@ const objeto= [
     'edad': 55,
     'tarifa':{
         '1': {
-            'hombre': 883.2704, 
-            'mujer': 821.2684 
+            'Masculino': 883.2704, 
+            'Femenino': 821.2684 
         },
         '2':{
-            'hombre':  750.77984, 
-            'mujer':  698.07814 
+            'Masculino':  750.77984, 
+            'Femenino':  698.07814 
         },
         '3':{
-            'hombre':  568.922305745636, 
-            'mujer':  670.041843802112
+            'Masculino':  568.922305745636, 
+            'Femenino':  670.041843802112
         }
     }
 },
@@ -1068,16 +1068,16 @@ const objeto= [
     'edad': 56,
     'tarifa':{
         '1': {
-            'hombre':  934.8556, 
-            'mujer': 864.9424
+            'Masculino':  934.8556, 
+            'Femenino': 864.9424
         },
         '2':{
-            'hombre':  794.62726, 
-            'mujer':  735.20104
+            'Masculino':  794.62726, 
+            'Femenino':  735.20104
         },
         '3':{
-            'hombre':  602.143972730929, 
-            'mujer':  705.670410748602
+            'Masculino':  602.143972730929, 
+            'Femenino':  705.670410748602
         }
     }
 },
@@ -1087,16 +1087,16 @@ const objeto= [
     'edad': 57,
     'tarifa':{
         '1': {
-            'hombre':  986.986, 
-            'mujer': 915.0312 
+            'Masculino':  986.986, 
+            'Femenino': 915.0312 
         },
         '2':{
-            'hombre': 838.9381, 
-            'mujer':  777.77652
+            'Masculino': 838.9381, 
+            'Femenino':  777.77652
         },
         '3':{
-            'hombre':  635.719594862217, 
-            'mujer':  746.541824506291
+            'Masculino':  635.719594862217, 
+            'Femenino':  746.541824506291
         }
     }
 },
@@ -1106,16 +1106,16 @@ const objeto= [
     'edad': 58,
     'tarifa':{
         '1': {
-            'hombre': 1037.7476, 
-            'mujer': 971.2796 
+            'Masculino': 1037.7476, 
+            'Femenino': 971.2796 
         },
         '2':{
-            'hombre':  882.08546, 
-            'mujer':  825.58766
+            'Masculino':  882.08546, 
+            'Femenino':  825.58766
         },
         '3':{
-            'hombre':  668.418281859771, 
-            'mujer':  792.433549521261
+            'Masculino':  668.418281859771, 
+            'Femenino':  792.433549521261
         }
     }
 },
@@ -1125,16 +1125,16 @@ const objeto= [
     'edad': 59,
     'tarifa':{
         '1': {
-            'hombre': 1084.6928, 
-            'mujer': 1033.038
+            'Masculino': 1084.6928, 
+            'Femenino': 1033.038
         },
         '2':{
-            'hombre':  921.98888, 
-            'mujer':  878.0823 
+            'Masculino':  921.98888, 
+            'Femenino':  878.0823 
         },
         '3':{
-            'hombre':  698.651353955969, 
-            'mujer': 842.811222940567
+            'Masculino':  698.651353955969, 
+            'Femenino': 842.811222940567
         }
     }
 },
@@ -1144,16 +1144,16 @@ const objeto= [
     'edad': 60,
     'tarifa':{
         '1': {
-            'hombre':  1124.7824, 
-            'mujer':1099.0884    
+            'Masculino':  1124.7824, 
+            'Femenino':1099.0884    
         },
         '2':{
-            'hombre':  956.06504, 
-            'mujer':  934.22514
+            'Masculino':  956.06504, 
+            'Femenino':  934.22514
         },
         '3':{
-            'hombre':  724.473631883208, 
-            'mujer': 896.70883546481
+            'Masculino':  724.473631883208, 
+            'Femenino': 896.70883546481
         }
     }
 },
@@ -1163,16 +1163,16 @@ const objeto= [
     'edad': 61,
     'tarifa':{
         '1': {
-            'hombre':  1154.5248, 
-            'mujer': 1167.5864 
+            'Masculino':  1154.5248, 
+            'Femenino': 1167.5864 
         },
         '2':{
-            'hombre': 981.34608, 
-            'mujer': 992.44844
+            'Masculino': 981.34608, 
+            'Femenino': 992.44844
         },
         '3':{
-            'hombre': 743.634363482573, 
-            'mujer':  952.595418578283
+            'Masculino': 743.634363482573, 
+            'Femenino':  952.595418578283
         }
     }
 },
@@ -1182,16 +1182,16 @@ const objeto= [
     'edad': 62,
     'tarifa':{
         '1': {
-            'hombre': 1170.15, 
-            'mujer':1235.7944 
+            'Masculino': 1170.15, 
+            'Femenino':1235.7944 
         },
         '2':{
-            'hombre':  994.6275, 
-            'mujer': 1050.42524
+            'Masculino':  994.6275, 
+            'Femenino': 1050.42524
         },
         '3':{
-            'hombre':  753.696502495868, 
-            'mujer':  1008.24375592941
+            'Masculino':  753.696502495868, 
+            'Femenino':  1008.24375592941
         }
     }
 },
@@ -1201,16 +1201,16 @@ const objeto= [
     'edad': 63,
     'tarifa':{
         '1': {
-            'hombre':  1190.2528, 
-            'mujer': 1300.012
+            'Masculino':  1190.2528, 
+            'Femenino': 1300.012
         },
         '2':{
-            'hombre':  1011.71488, 
-            'mujer': 1105.0102 
+            'Masculino':  1011.71488, 
+            'Femenino': 1105.0102 
         },
         '3':{
-            'hombre':  766.641060535263, 
-            'mujer':  1060.62834353385
+            'Masculino':  766.641060535263, 
+            'Femenino':  1060.62834353385
         }
     }
 },
@@ -1220,16 +1220,16 @@ const objeto= [
     'edad': 64,
     'tarifa':{
         '1': {
-            'hombre':  1215.3552, 
-            'mujer': 1355.4948 
+            'Masculino':  1215.3552, 
+            'Femenino': 1355.4948 
         },
         '2':{
-            'hombre': 1033.05192, 
-            'mujer': 1152.17058
+            'Masculino': 1033.05192, 
+            'Femenino': 1152.17058
         },
         '3':{
-            'hombre':  782.814922571871, 
-            'mujer': 1105.89347916503
+            'Masculino':  782.814922571871, 
+            'Femenino': 1105.89347916503
         }
     }
 },
@@ -1239,16 +1239,16 @@ const objeto= [
     'edad': 65,
     'tarifa':{
         '1': {
-            'hombre': 1255.526, 
-            'mujer':1396.6052 
+            'Masculino': 1255.526, 
+            'Femenino':1396.6052 
         },
         '2':{
-            'hombre': 1067.1971, 
-            'mujer':  1187.11442
+            'Masculino': 1067.1971, 
+            'Femenino':  1187.11442
         },
         '3':{
-            'hombre': 808.693101830446, 
-            'mujer':  1139.44464335502
+            'Masculino': 808.693101830446, 
+            'Femenino':  1139.44464335502
         }
     }
 },
